@@ -1,0 +1,47 @@
+-------------------------------------------
+Test1
+
+Populating the trie wiht: 111, 01, 0, 0100, 000, 011, 0101
+Number of Nodes in the Trie: 12
+
+Test1 results:
+Number of Nodes in the compressed Trie: 9
+Printing Strings in Lexicographical Order:
+0,000,01,0100,0101,011,111,
+Correct Answers (Number of Nodes): 1/1
+Correct Answers (Lexicographical): 1/1
+-------------------------------------------
+
+-------------------------------------------
+Test2
+
+Populating the trie with: 0001, 00010101
+Number of Nodes in the Trie: 9
+
+Test2 results:
+Number of Nodes in the compressed Trie: 2
+Printing Strings in Lexicographical Order:
+0001,00010101,
+Correct Answers (Number of Nodes): 1/1
+Correct Answers (Lexicographical): 1/1
+-------------------------------------------
+
+-------------------------------------------
+Test3
+
+Compressing long strings (up to 2000 characters long, run 300 times). Expected time (around) ~500ms
+
+Test3 results:
+Time taken (miliseconds): 618
+Number of nodes in the Trie: 2414
+Number of nodes in the compressed Trie: 354
+-------------------------------------------
+
+-------------------------------------------
+Test4
+
+Inserting: 0, 000, 01, 0100, 0101, 011, 111
+Printing tree inOrder:
+(((()00())0(((()0())0(()1()))1(()1())))(()111()))
+-------------------------------------------
+

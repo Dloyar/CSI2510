@@ -1,0 +1,72 @@
+-------------------------------------------
+Test1
+
+Populating the trie:
+Inserting 111: true
+Number of Nodes: 4
+Inserting 000: true
+Inserting 0: true
+Inserting 01: true
+Inserting 0100: true
+Inserting 011: true
+Inserting 0101: true
+Number of Nodes: 12
+Printing Strings in Lexicographical Order:
+0,000,01,0100,0101,011,111,
+
+Test1 results:
+Correct Answers (Inserting): 10/10
+Correct Answers (Number of Nodes): 2/2
+Correct Answers (Lexicographical): 1/1
+-------------------------------------------
+
+-------------------------------------------
+Test2
+
+Inserting repeated strings:
+Trying to insert 000 again: false
+Trying to insert 0100 again: false
+Trying to insert 011 again: false
+Trying to insert 111 again: false
+Trying to insert 0000001100000 again: false
+Number of Nodes: 21
+
+Test2 results:
+Correct Answers (Repeated strings): 5/5
+Correct Answers (Number of nodes): 1/1
+-------------------------------------------
+
+-------------------------------------------
+Test3
+
+Inserting: 0, 000, 01, 0100, 0101, 011, 111
+Testing search method:
+Searching for 0: true
+Searching for 010: false
+Searching for 1: false
+Searching for 111: true
+Searching for 111: true
+Searching for 01001: false
+
+Test3 results:
+Correct Answers (Searching): 6/6
+-------------------------------------------
+
+-------------------------------------------
+Test4
+
+Inserting long strings (up to 10^6 characters long). Expected time (around) ~500ms
+
+Test4 results:
+Time taken (miliseconds): 285
+Number of nodes: 2999995
+-------------------------------------------
+
+-------------------------------------------
+Test5
+
+Inserting: 0, 000, 01, 0100, 0101, 011, 111
+Printing tree inOrder:
+((((()true())false())true(((()true())false(()true()))true(()true())))false(()false(()false(()true()))))
+-------------------------------------------
+
